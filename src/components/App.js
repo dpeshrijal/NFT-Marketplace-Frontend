@@ -3,7 +3,7 @@ import NFTAbi from "../utils/NFT.json";
 import NFTMarketplaceAbi from "../utils/NFTMarketplace.json";
 import { useState } from "react";
 import { ethers } from "ethers";
-import Navbar from './Navbar';
+import Navigation from './Navbar';
 import Home from './Home.js';
 import Create from './Create.js';
 import MyListedItems from './MyListedItems.js';
@@ -48,7 +48,9 @@ function App() {
 
         <BrowserRouter>
             <div className="App">
-                <Navbar web3Handler={web3Handler} account={account} />
+                <>
+                    <Navigation web3Handler={web3Handler} account={account} />
+                </>
 
                 <div>
 
@@ -66,7 +68,6 @@ function App() {
                             <MyPurchases marketplace={marketplace} nft={nft} account={account} />
                         } />
                     </Routes>
-
                 </div>
             </div>
         </BrowserRouter>
@@ -74,9 +75,6 @@ function App() {
     )
 
 }
-
-
-
 
 
 export default App;
