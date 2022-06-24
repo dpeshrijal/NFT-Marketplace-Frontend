@@ -17,7 +17,7 @@ const Navigation = ({ web3Handler, account }) => {
                         {account ? (
 
                             <Button variant="outline-light">
-                                {account.slice(0, 5) + '...' + account.slice(38, 42)}
+                                {account}
                             </Button>
 
 
