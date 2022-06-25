@@ -9,8 +9,8 @@ const Navigation = ({ web3Handler, account }) => {
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="me-auto">
-                        <Nav.Link as={Link} to="/">Create</Nav.Link>
-                        <Nav.Link as={Link} to="/OnSale">On Sale</Nav.Link>
+                        <Nav.Link as={Link} to="/NFT-Marketplace-Frontend/">Create</Nav.Link>
+                        <Nav.Link as={Link} to="/NFT-Marketplace-Frontend/OnSale">On Sale</Nav.Link>
 
                     </Nav>
                     <Nav>

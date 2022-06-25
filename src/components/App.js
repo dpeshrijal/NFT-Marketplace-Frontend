@@ -54,10 +54,10 @@ function App() {
                 <div>
 
                     <Routes>
-                        <Route path="/" element={
+                        <Route exact path="/NFT-Marketplace-Frontend/" element={
                             <Create marketplace={marketplace} nft={nft} />
                         } />
-                        <Route path="/OnSale" element={
+                        <Route path="/NFT-Marketplace-Frontend/OnSale" element={
                             <OnSale marketplace={marketplace} nft={nft} />
                         } />
 
