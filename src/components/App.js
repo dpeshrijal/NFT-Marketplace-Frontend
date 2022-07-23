@@ -15,8 +15,8 @@ function App() {
     const [nft, setNFT] = useState("");
     const [marketplace, setMarketplace] = useState();
 
-    const nftAddress = "0x2168d53bD05be008b211473aF7f8bF619C5a332E";
-    const nftMarketplaceAddress = "0x447891A0FC3bb9c7489a354E14B57F1FE5E0142f";
+    const nftAddress = "0xC5AbBf156beC66dD38e28642D8aB79BA88c15E8e";
+    const nftMarketplaceAddress = "0x425290587d24d49c29D088509325529988E4d504";
 
     const web3Handler = async () => {
         const accounts = await window.ethereum.request({ method: 'eth_requestAccounts' });
